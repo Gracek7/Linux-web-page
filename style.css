@@ -1,0 +1,154 @@
+body
+{
+    background-color:#0BB3B3;
+    font-family: 'Ubuntu Mono', monospace;
+    color:black; 
+}
+
+#container
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#logo
+{
+color:white;
+margin-top:20px;
+font-size:20px;
+letter-spacing:2px;
+}
+
+#menu
+{ 
+ background-color:#303030;
+ color:white;
+text-align:center;
+margin-top:20px;
+margin-bottom:10px;
+padding:10px;
+}
+
+#topbar
+{
+color:white;
+}
+
+#sidebar
+{
+    font-size:10px;
+    float:right;
+    width:148px;
+    padding:20px;
+    background-color:#1C2222;
+    color:white;
+    border-right:2px dotted whitesmoke;
+    text-align:center;
+}
+
+#content
+{
+    font-size:18px;
+    float:left;
+    padding:40px;
+    width:726px;
+    background-color:#1C2222;
+    color:white;
+    min-height:580px;
+    text-align:justify;
+    border:2px solid #4E03DA;
+}
+
+#footer
+{
+    clear:both;
+    font-size:18px;
+    background-color:#1C2222;
+    color:white;
+    padding:20px;
+    text-align:center;
+    width: 770px;
+    border-top:3px dotted white;
+}
+
+.option
+{
+    float:left;
+    min-width:50px;
+    font-size:18px;
+    padding:10px;
+    border-right:2px dotted #ffffff;
+}
+
+.option:hover
+{
+background-color: #808080;
+cursor: pointer;
+}
+
+#topbar
+{
+    background-color:#1C2222;
+    color:white;
+    padding:10px;
+    margin-top:20px;
+    margin-bottom:25px;
+    height:170px;
+}
+
+#topbarL
+{
+    float:left;
+    padding:20px;
+    width:138px;
+    text-align:center;
+    border-right:2px dotted #cccccc;
+}
+
+#topbarR
+{
+    float:left;
+    padding:20px;
+    width:760px;
+    font-size:16px;
+    text-align:left;
+}
+
+.optionl
+{
+font-size:16.6px;
+height:25px;
+padding:10px;
+border-bottom:2px dotted #cccccc;
+}
+
+.optionl:hover
+{
+background-color: #303030;
+cursor:pointer;
+}
+
+#logo
+{
+    background-color:aqua;
+    padding:5px;
+    text-align: center;
+    color:black;
+}
+
+.bigtitle
+{
+    text-align:left;
+    font-size:35px;
+    color:aqua;
+    letter-spacing:1px;
+}
+
+.dottedline
+{
+    height:5px ;
+    margin-top:15px;
+    margin-bottom:20px;
+    border-bottom:2px dotted white ;
+}
